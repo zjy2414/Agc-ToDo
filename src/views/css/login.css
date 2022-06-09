@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bg-white {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #e5e7ec;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1em;
+    text-align: center;
+}
+
+.bg-grey {
+    width: 100%;
+    background-color: #f8fafc;
+    border: 2px solid #e5e7ec;
+    border-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 1em;
+    text-align: center;
+}
+
+.text-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.field-group {
+    border: 0;
+    /* padding: 0.35em 0 0.625em 0; */
+    text-align: left;
+    position: relative;
+}
+
+.label {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.btn-submit {
+    background-color: #6371c5;
+    color: #fff;
+    padding: 0.7em;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    width: 100%;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.buttom-btn {
+    background-color: #fff;
+    display: flex;
+    padding: 0.7em;
+    justify-content: center;
+    text-decoration: none;
+    color: #4d5068;
+    border: 1px solid #e5e7ec;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    width:100%;
+    min-height: 5vh;
+}
+
+.buttom-btn div {
+    padding: 0.5em;
+}
+
+.button-group {
+    margin-top: 8%;
+}
